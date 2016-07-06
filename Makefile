@@ -14,6 +14,7 @@ NAME		= raytracer
 SRCS		= source/raytracer.c \
 					source/args.c \
 					source/dot_product.c \
+					source/draw_sphere.c \
 					source/vector_sub.c \
 					source/check_intersect.c \
 					source/init_vector.c \

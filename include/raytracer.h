@@ -37,6 +37,7 @@ void        init_vector(t_vector *vector, int x, int y, int z);
 void        init_sphere(t_sphere *sphere, t_vector *coords, double radius);
 void        init_ray(t_vector *start, t_vector *dir);
 
+void        draw_sphere(t_sphere *sphere);
 t_vector    vector_sub(t_vector *v1, t_vector *v2);
 double      dot_product(t_vector *v1, t_vector *v2);
 int         check_intersect(t_ray *ray, t_sphere *sphere);
