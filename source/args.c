@@ -40,7 +40,7 @@ void        parse_args(t_args *args, int argc, char **argv)
           args -> radius = atoi(argv[++i]);
       else
         {
-          my_puts("Syntax:\n    raytracer [--coords x y z]\n");
+          my_puts("Syntax: raytracer [--coords x y z] [--radius r]\n");
           exit(FAILURE);
         }
       ++i;
