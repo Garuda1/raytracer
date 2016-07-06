@@ -11,6 +11,8 @@
 #ifndef   CONFIG_H_
 #define   CONFIG_H_
 
+#define   SIZE_X  40
+#define   SIZE_Y  40
 #define   DEFAULT_X       20
 #define   DEFAULT_Y       20
 #define   DEFAULT_Z       20
