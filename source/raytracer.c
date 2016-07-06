@@ -12,9 +12,6 @@
 #include    <args.h>
 #include    <raytracer.h>
 
-#define     SIZE_X  40
-#define     SIZE_Y  40
-
 void        draw_sphere(t_sphere *sphere)
 {
   t_ray     ray;
